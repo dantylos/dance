@@ -1,0 +1,218 @@
+.banner {
+  background-image: url(../images/background.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+header {
+  padding-top: 15px;
+}
+header .container {
+  align-items: center;
+  justify-content: space-between;
+}
+header .container nav ul {
+  align-items: center;
+}
+header .container nav li {
+  margin-left: 40px;
+}
+header .container nav li:last-of-type {
+  margin-left: 50px;
+  background: #7140EB;
+  border-radius: 24px;
+  padding: 12px 50px;
+}
+header .container nav li:nth-child(2) {
+  margin-left: 36px;
+}
+header .container nav li:nth-child(3) {
+  margin-left: 28px;
+}
+header .container nav li:nth-child(4) {
+  margin-left: 46px;
+}
+header .container nav a {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+header .main-logo {
+  max-width: 124px;
+}
+header .main-logo img {
+  width: 100%;
+}
+
+.start_now {
+  background: #7140EB;
+  border-radius: 24px;
+  padding: 11px 50px;
+  color: white;
+  font-family: "Montserrat";
+}
+
+.main-banner {
+  height: 100vh;
+  height: calc(100vh - 89px);
+  padding-top: 90px;
+}
+.main-banner .container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-banner h1 {
+  font-family: "Montserrat";
+  font-size: 99px;
+  font-weight: 400;
+  line-height: 111px;
+  letter-spacing: 5px;
+  text-align: center;
+  color: white;
+  max-width: 680px;
+}
+.main-banner p {
+  font-family: "Montserrat";
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  color: white;
+  max-width: 370px;
+  margin: 36px 0 56px;
+}
+.main-banner .main-link {
+  justify-content: center;
+}
+
+.working {
+  position: relative;
+  padding: 68px 0 72px;
+}
+.working .bikes-img {
+  position: absolute;
+  right: 0;
+  top: calc(50% - 179px);
+  max-width: 766px;
+}
+.working .bikes-img img {
+  width: 100%;
+}
+.working .container ol {
+  margin-left: 32px;
+}
+.working h2 {
+  font-family: "Montserrat";
+  font-size: 67px;
+  font-weight: 400;
+  line-height: 67px;
+  text-align: left;
+  margin-bottom: 70px;
+}
+.working ol li {
+  font-family: "Montserrat";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.working ol li:last-of-type {
+  margin-bottom: 51px;
+}
+
+.move {
+  background: #F5F5F7;
+  padding: 68px 0 72px;
+}
+.move .cards {
+  justify-content: space-between;
+}
+.move h3 {
+  font-family: "Montserrat";
+  font-size: 67px;
+  font-weight: 400;
+  line-height: 67px;
+  text-align: left;
+  margin-bottom: 26px;
+}
+.move p {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+.move article {
+  background: #FFFFFF;
+  border-radius: 16px;
+  max-width: 334px;
+  padding: 66px 24px 32px;
+  margin-top: 48px;
+}
+.move article .move-img {
+  max-width: 286px;
+}
+.move article .move-img img {
+  width: 100%;
+}
+.move article .price {
+  justify-content: space-between;
+  margin-bottom: 36px;
+}
+.move article .price p {
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  max-width: 154px;
+}
+.move article .price a {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #7140EB;
+  background: #F1EEF8;
+  border-radius: 16px;
+  padding: 1px 8px;
+  max-width: 108px;
+}
+.move article .details p {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+}
+.move article .details .dance-article {
+  font-family: "Montserrat";
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+.move article .details a {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: black;
+  border: 1px solid #000;
+  border-radius: 36px;
+  padding: 22px 60px 22px 40px;
+  margin-top: 10px;
+}
+.move article .details a::after {
+  content: url(../images/chevron.svg);
+  position: relative;
+  top: 5px;
+  left: 4px;
+}
+
+/*# sourceMappingURL=header.css.map */
