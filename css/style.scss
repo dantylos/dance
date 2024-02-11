@@ -2,6 +2,7 @@
 
 @import url(header.css);
 @import url(footer.css);
+@import url(accordion.css);
 
 $font: 'Montserrat';
 $white: white;
@@ -21,13 +22,16 @@ a{
 }
 .container{
   margin: auto;
-  max-width: 1440px;
+  max-width: 1200px;
   a{
     display: inline-block;
   }
 }
 .flex{
   display: flex;
+}
+.space_bw{
+  justify-content: space-between;
 }
 .block{
   display: block;
@@ -37,3 +41,451 @@ a{
 }
 
 
+.start_now{
+  background: #7140EB;
+  border-radius: 24px;
+  padding: 11px 50px;
+  color: $white;
+  font-family: $font;
+}
+
+.main-banner{
+  height: 100vh;
+  height: calc(100vh - 89px);
+  padding-top: 90px;
+  .container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    font-family: $font;
+    font-size: 99px;
+    font-weight: 400;
+    line-height: 111px;
+    letter-spacing: 5px;
+    text-align: center;    
+    color: $white;
+    max-width: 680px;
+  }
+  p{
+    font-family: $font;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;    
+    color: $white;
+    max-width: 370px;
+    margin: 36px 0 56px;
+  }
+  .main-link{
+    justify-content: center;
+  }
+}
+
+.working{
+  position: relative;
+  padding: 68px 0 72px;
+  .bikes-img{
+    position: absolute;
+    right: 0;
+    top: calc(50% - 179px);
+    max-width: 766px;
+    img{
+      width: 100%;
+    }
+  }
+  .container{
+    ol{
+      margin-left: 32px;
+    }
+  }
+  h2{
+    font-family: $font;
+    font-size: 67px;
+    font-weight: 400;
+    line-height: 67px;
+    text-align: left;   
+    margin-bottom: 70px; 
+  }
+  ol{
+    li{
+      font-family: $font;
+      font-size: 28px;
+      font-weight: 400;
+      line-height: 34px;
+      text-align: left;    
+      margin-bottom: 24px;  
+      &:last-of-type{
+        margin-bottom: 51px;
+      }
+    }
+  }
+}
+
+.move{
+  background: #F5F5F7;
+  padding: 68px 0 72px;
+  .cards{
+    justify-content: space-between;
+  }
+  h3{
+    font-family: $font;
+    font-size: 67px;
+    font-weight: 400;
+    line-height: 67px;
+    text-align: left;    
+    margin-bottom: 26px;
+  }
+  p{
+    font-family: $font;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;   
+  }
+  article{
+    background: #FFFFFF;
+    border-radius: 16px;
+    max-width: 334px;
+    padding: 66px 24px 32px;
+    margin-top: 48px;
+    .move-img{
+      max-width: 286px;
+      img{
+        width: 100%;
+      }
+    }
+    .price{
+      justify-content: space-between;
+      margin-bottom: 36px;
+      p{
+        font-family: $font;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 22px; 
+        text-align: left;   
+        max-width: 154px;   
+      }
+      a{
+        font-family: $font;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #7140EB;    
+        background: #F1EEF8;  
+        border-radius: 16px;
+        padding: 1px 8px;
+        max-width: 108px;
+      }
+    }
+    .details{
+      p{
+        font-family: $font;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;        
+      }
+      .dance-article{
+        font-family: $font;
+        font-size: 29px;
+        font-weight: 400;
+        line-height: 34px;        
+        text-align: left;        
+      }
+      a{
+      font-family: $font;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 16px;
+      text-align: center;    
+      color: $black;
+      border: 1px solid #000;
+      border-radius: 36px;
+      padding: 22px 60px 22px 40px;
+      margin-top: 10px;
+      &::after{
+        content: url(../images/chevron.svg);
+        position: relative;
+        top: 5px;
+        left: 4px;
+      }
+      }  
+    }
+  }
+}
+
+.care{
+  padding: 68px 0 72px;
+  background: #F5F5F7;
+  .container{
+    justify-content: space-between;
+    h4{
+      font-family: $font;
+      font-size: 67px;
+      font-weight: 400;
+      line-height: 67px;
+      text-align: left;      
+      max-width: 480px;
+    }
+    p{
+      font-family: $font;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: left;      
+      max-width: 380px;
+      margin-top: 26px;
+    }
+    a{
+      font-family: $font;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 16px;
+      text-align: left;       
+      color: $black;
+      border: 1px solid #000;
+      border-radius: 36px;
+      padding: 12px 60px 12px 40px;
+      margin-top: 38px;
+      &::after{
+        content: url(../images/chevron.svg);
+        position: relative;
+        top: 5px;
+        left: 4px;
+      }
+    }
+  }
+}
+
+.city{
+  background-image: url(../images/flee.jpg);
+  background-size: cover;
+  height: 100vh;
+  padding: 98px 0 60px;
+  .container{
+    justify-content: space-between;
+    align-items: end;
+    ul {
+      li{
+        font-family: $font;
+        color: $white;
+        font-size: 100px;
+        font-weight: 400;
+        line-height: 111px;
+        letter-spacing: 5px;
+        text-align: right;        
+      }
+    }
+    h4{
+      font-family: $font;
+      color: $white;
+      font-size: 65px;
+      font-weight: 400;
+      line-height: 67px;
+      text-align: left;    
+      max-width: 420px;  
+    }
+    p{
+      font-family: $font;
+      color: $white;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 25px;
+      text-align: left;    
+      max-width: 320px;  
+      margin-top: 12px;
+    }
+    a{
+      margin-top: 28px;
+    }
+    #wantmore{
+      font-family: $font;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;   
+      color: $white;   
+      margin-top: 32px;
+    }
+  }
+}
+
+.subscription{
+  padding: 68px 0 74px;
+  .container{
+    justify-content: space-between;
+    align-items: center;
+    .variants{
+      max-width: 684px;
+      article{
+        background: #F5F5F7;
+        border-radius: 16px;
+        max-width: 334px;
+        padding: 66px 24px 32px;
+        margin-top: 48px;
+        margin-left: 16px;
+        .move-img{
+          max-width: 286px;
+          img{
+            width: 100%;
+          }
+        }
+        .price{
+          justify-content: space-between;
+          margin-bottom: 36px;
+          p{
+            font-family: $font;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 22px; 
+            text-align: left;   
+            max-width: 154px;  
+            margin-bottom: 0px; 
+          }
+          a{
+            font-family: $font;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            color: #7140EB;    
+            background: #F1EEF8;  
+            border-radius: 16px;
+            padding: 1px 8px;
+            max-width: 108px;
+          }
+        }
+        .details{
+          p{
+            font-family: $font;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            text-align: left;        
+          }
+          .dance-article{
+            font-family: $font;
+            font-size: 29px;
+            font-weight: 400;
+            line-height: 34px;        
+            text-align: left;   
+            margin-bottom: 0px;     
+          }
+          .start_now{
+            padding: 22px 54px;
+            border-radius: 36px;
+          }
+        }
+      }
+    }
+    h4{
+      font-family: $font;
+      font-size: 65px;
+      font-weight: 400;
+      line-height: 67px;
+      text-align: left;     
+      margin-bottom: 26px; 
+      max-width: 320px;
+    }
+    p{
+      font-family: $font;
+      font-size: 21px;
+      font-weight: 400;
+      line-height: 25px;
+      text-align: left;   
+      margin-bottom: 36px;   
+      max-width: 320px;
+    }
+    ul{
+      
+      li{
+        font-family: $font;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;   
+        background: #F5F5F7;  
+        border-radius: 16px;   
+        padding: 7px 16px 7px 48px;
+        margin-bottom: 16px;
+        &::before{
+          content: url(../images/Frame-done.svg);
+          position: relative;
+          top: 2px;
+          right: 20px;
+        }
+      }
+    }
+  }
+}
+
+.more{
+  background: #F5F5F7;
+  padding: 80px 0 96px;
+  .container{
+    justify-content: space-between;
+    align-items: center;
+  }
+  h3{
+    font-family: $font;
+    font-size: 67px;
+    font-weight: 400;
+    line-height: 67px;
+    text-align: left;  
+    margin-bottom: 52px;  
+    max-width: 380px;
+  }
+  a{
+    font-family: $font;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left; 
+    color: $black;   
+    border: 1px solid #000;
+    border-radius: 24px;
+    padding: 11px 55px 11px 44px;
+    &::after{
+      content: url(../images/chevron.svg);
+      position: relative;
+      top: 4px;
+      left: 4px;
+    }
+  }
+}
+
+.members{
+  padding: 68px 0 72px;
+  .container{
+    h3{
+      font-family: $font;
+      font-size: 66px;
+      font-weight: 400;
+      line-height: 67px;
+      text-align: left;  
+      margin-bottom: 98px;    
+    }
+    .citation{
+      max-width: 320px;
+      min-height: 160px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      p{
+        font-family: $font;
+        color: #49464F;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;  
+        &:first-of-type{
+          font-size: 29px;
+          line-height: 29px; 
+        }     
+      }
+    }
+  }
+}

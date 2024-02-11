@@ -1,3 +1,85 @@
-
+footer {
+  background-image: url(../images/footer.png);
+  background-size: cover;
+  padding: 98px 0 20px;
+}
+footer .container {
+  max-width: 1280px;
+}
+footer .container .foot-info {
+  max-width: 314px;
+  margin-bottom: 96px;
+}
+footer .container .foot-info label::after {
+  content: url(../images/foot-chevron.svg);
+  position: relative;
+  bottom: 38px;
+  left: 300px;
+}
+footer .container .foot-info h4 {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+footer .container .foot-info a {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 18px;
+}
+footer .container .foot-info p {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  margin-top: 24px;
+}
+footer .container .foot-info .regist {
+  margin-top: 28px;
+  border-radius: 12px;
+  padding: 16px 180px 16px 16px;
+  border: 0px hidden white;
+}
+footer .container .foot-lists ul {
+  margin-left: 95px;
+}
+footer .container .foot-lists ul li {
+  margin-bottom: 16px;
+  font-family: "Montserrat";
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+footer .container .foot-lists ul li:first-of-type {
+  margin-bottom: 8px;
+  opacity: 50%;
+}
+footer .container .foot-lists ul li a {
+  font-family: "Montserrat";
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+footer .container .socials {
+  justify-content: end;
+}
+footer .container .socials ul {
+  align-items: center;
+}
+footer .container .socials ul li {
+  margin-left: 4px;
+}
 
 /*# sourceMappingURL=footer.css.map */
