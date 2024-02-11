@@ -40,43 +40,49 @@ a {
 .start_now {
   background: #7140EB;
   border-radius: 24px;
-  padding: 11px 50px;
+  padding: 12px 50px;
   color: white;
   font-family: "Montserrat";
 }
 
-.main-banner {
+.banner {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
   height: 100vh;
-  height: calc(100vh - 89px);
-  padding-top: 90px;
 }
-.main-banner .container {
-  flex-direction: column;
+
+.main-banner {
+  display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
+  height: calc(100vh - 89px);
+}
+.main-banner .wrapper {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .main-banner h1 {
   font-family: "Montserrat";
+  color: white;
   font-size: 99px;
   font-weight: 400;
   line-height: 111px;
   letter-spacing: 5px;
   text-align: center;
-  color: white;
   max-width: 680px;
+  margin-bottom: 36px;
 }
 .main-banner p {
   font-family: "Montserrat";
+  color: white;
   font-size: 21px;
   font-weight: 400;
   line-height: 23px;
   text-align: center;
-  color: white;
-  max-width: 370px;
-  margin: 36px 0 56px;
-}
-.main-banner .main-link {
-  justify-content: center;
+  max-width: 380px;
+  margin-bottom: 36px;
 }
 
 .working {
@@ -213,6 +219,12 @@ a {
 }
 .care .container {
   justify-content: space-between;
+}
+.care .container .care-img {
+  max-width: 596px;
+}
+.care .container .care-img img {
+  width: 100%;
 }
 .care .container h4 {
   font-family: "Montserrat";

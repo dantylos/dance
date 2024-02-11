@@ -44,42 +44,48 @@ a{
 .start_now{
   background: #7140EB;
   border-radius: 24px;
-  padding: 11px 50px;
+  padding: 12px 50px;
   color: $white;
   font-family: $font;
 }
 
+.banner{
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
 .main-banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   height: calc(100vh - 89px);
-  padding-top: 90px;
-  .container{
+  .wrapper{
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
   h1{
     font-family: $font;
+    color: $white;
     font-size: 99px;
     font-weight: 400;
     line-height: 111px;
     letter-spacing: 5px;
-    text-align: center;    
-    color: $white;
-    max-width: 680px;
+    text-align: center;   
+    max-width: 680px; 
+    margin-bottom: 36px;
   }
   p{
     font-family: $font;
+    color: $white;
     font-size: 21px;
     font-weight: 400;
     line-height: 23px;
-    text-align: center;    
-    color: $white;
-    max-width: 370px;
-    margin: 36px 0 56px;
-  }
-  .main-link{
-    justify-content: center;
+    text-align: center;   
+    max-width: 380px; 
+    margin-bottom: 36px;
   }
 }
 
@@ -222,6 +228,12 @@ a{
   background: #F5F5F7;
   .container{
     justify-content: space-between;
+    .care-img{
+      max-width: 596px;
+      img{
+        width: 100%;
+      }
+    }
     h4{
       font-family: $font;
       font-size: 67px;
