@@ -19,7 +19,28 @@
           <a href="index.html"><img class="block" src="images/logo.svg" alt="logo"></a>
         </div>
 
-        <nav>
+
+        <nav class="burger" role='navigation'>
+          <div id="menuToggle">
+
+            <input type="checkbox" />
+            
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu">
+              <a href="#"><li>Concierge</li></a>
+              <a href="#"><li>Rides</li></a>
+              <a href="#"><li>For Business</li></a>
+              <a href="#"><li>En</li></a>
+              <a class="start_now" href="#"><li>Start now</li></a>
+            </ul>
+          </div>
+        </nav>
+
+
+        <nav class="main-menu">
           <ul class="flex ls-none">
             <li><a href="#">Concierge</a></li>
             <li><a href="#">Rides</a></li>
@@ -49,21 +70,27 @@
 
       <section class="working">
 
+        <div class="container">
+
+          <div>
+            <h2>How it works</h2>
+            <ol>
+              <li>Pick your city</li>
+              <li>Choose your ride</li>
+              <li>Delivery to your door</li>
+              <li>Ride freely</li>
+            </ol>
+            <div id="work-link">
+              <a class="start_now" href="#">Start now</a>
+            </div>
+          </div>
+
+        </div>
+
         <div class="bikes-img">
           <img class="block" src="images/bikes.png" alt="product">
         </div>
 
-        <div class="container">
-          <h2>How it works</h2>
-          <ol>
-            <li>Pick your city</li>
-            <li>Choose your ride</li>
-            <li>Delivery to your door</li>
-            <li>Ride freely</li>
-          </ol>
-          <a class="start_now" href="#">Start now</a>
-
-        </div>
       </section>
 
       <section class="move">
@@ -72,7 +99,9 @@
           <h3>Move your way</h3>
           <p>Choose the electric ride that suits your lifestyle.</p>
 
-          <div class="cards flex">
+          <div class="owl-carousel cards flex">
+
+
             <article>
 
               <div class="move-img">
@@ -117,7 +146,7 @@
                 <img class="block" src="images/moped.png" alt="product">
               </div>
 
-              <div class="price flex">
+              <div class="mopeed price flex">
                 <p>From €89 €39/mo</p>
                 <a href="#">Winter offer</a>
               </div>
@@ -136,10 +165,12 @@
 
       <section class="care">
         <div class="container flex">
-          <div>
+          <div class="care-info">
             <h4>Just ride—we’ll take care of the rest</h4>
             <p>Your local Concierge Team will repair or replace your ride within 24 hours—all included with your subscription.</p>
-            <a href="#">See details</a>
+            <div class="care-link">
+              <a href="#">See details</a>
+            </div>
           </div>
           <div class="care-img">
             <img class="block" src="images/care.jpg" alt="img">
@@ -167,7 +198,7 @@
 
       <section class="subscription">
         <div class="container flex">
-          <div>
+          <div class="variants-info">
             <h4>You’re in charge</h4>
             <p>Your subscription is fully flexible—with free cancelation at any time and no sign-up fees.</p>
             <ul class="ls-none">
@@ -222,7 +253,7 @@
       <section class="more">
         <div class="container flex">
 
-          <div>
+          <div class="more-info">
             <h3>Want to know more?</h3>
             <a href="#">Learn more</a>
           </div>
@@ -293,24 +324,32 @@
               <p>Travis, Hamburg</p>
             </div>
           </div>
+
         </div>
       </section>
   </main>
 
+
   <footer>
     <div class="container">
 
-      <div class="flex space_bw">
+      <div class="foot-form flex space_bw">
+
         <div class="foot-info">
-          <h4>Stay up to speed</h4>
-          <a href="#">Sign up to get the latest Dance offers, updates, and tips straight to your inbox.</a>
-          <form name="registration" action="submit" method="post">
-            <label for="registration">
-              <input class="regist" name="registration" type="email" placeholder="your@email.de">
-            </label>
-          </form>
-          <p>By checking this box, you allow Dance to collect data relating to the Dance newsletter, including whether it has been opened and clicked through. For more information.</p>
+          <div>
+            <h4>Stay up to speed</h4>
+            <a href="#">Sign up to get the latest Dance offers, updates, and tips straight to your inbox.</a>
+            <form name="registration" action="submit" method="post">
+              <label for="registration">
+                <input class="regist" name="registration" type="email" placeholder="your@email.de">
+              </label>
+            </form>
+          </div>
+          <div>
+            <p>By checking this box, you allow Dance to collect data relating to the Dance newsletter, including whether it has been opened and clicked through. For more information.</p>
+          </div>
         </div>
+
         <div class="foot-lists flex">
           <ul class="ls-none">
             <li>Menu</li>
@@ -339,6 +378,7 @@
             <li><a href="#">Cancel subscription</a></li>
           </ul>
         </div>
+
       </div>
 
       <div class="socials flex">
@@ -353,5 +393,9 @@
     </div>
   </footer>
 
+<script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
