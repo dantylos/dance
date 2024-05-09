@@ -234,11 +234,14 @@
 
     transition: opacity 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   }
-  header .container #menu li:last-of-type {
+  header .container #menu li{
     border-radius: 24px;
     padding: 10px 0;
     color: black;
     background: none;
+  }
+  #menu .head-start li:last-of-type{
+    color: #fff;
   }
   .main-banner h1 {
       font-size: 56px;
