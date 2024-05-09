@@ -101,6 +101,14 @@ a:hover{
 #menu li{
   padding: 10px 0;
   font-size: 22px;
+  white-space: nowrap;
+}
+
+#menu .head-start{
+  background-color: blueviolet;
+  border-radius: 24px;
+  padding: 4px 32px 4px 0;
+
 }
 
 #menuToggle input:checked ~ ul{

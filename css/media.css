@@ -217,7 +217,7 @@
 }
 @media screen and (max-width: 767px) {
   header .container{
-    padding: 0 36px;
+    padding: 0 16px;
   }
   .accordion {
       padding: 0 16px;
@@ -235,9 +235,8 @@
     transition: opacity 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   }
   header .container #menu li:last-of-type {
-    margin-left: 50px;
     border-radius: 24px;
-    padding: 12px 50px;
+    padding: 10px 0;
     color: black;
     background: none;
   }
@@ -375,9 +374,6 @@
   .subscription .container .variants article .details .dance-article {
     font-size: 26px;
   }
-  .subscription .container .variants article .details .start_now {
-    padding: 8px 26px;
-  }
   .city .container h4 {
     font-size: 36px;
     line-height: 36px;
@@ -387,9 +383,6 @@
     font-size: 20px;
     line-height: 22px;
     margin-top: 10px;
-  }
-  .start_now {
-    padding: 6px 32px;
   }
   .city .container #wantmore {
     font-size: 16px;
@@ -412,20 +405,35 @@
     margin-left: 24px;
   }
 }
+
+@media screen and (max-width: 520px){
+  .move .cards article{
+    max-width: 228px;
+    padding: 26px 6px 14px;
+  }
+  .move .cards article .price p{
+    max-width: 82px;
+    font-size: 12px;
+  }
+  .move .cards article .price a{
+    font-size: 13px;
+    line-height: 38px;
+  }
+}
+
+@media screen and (max-width: 490px){
+  .move .cards article{
+    max-width: 200px;
+  }
+}
+
 @media screen and (max-width: 431px) {
   #menu{
-    padding: 100px 50px 50px 0;
+    padding: 100px 50px 50px 12px;
   }
   header .container #menu li:last-of-type {
     margin-left: 0px;
     padding: 14px 42px;
-  }
-  header .container #menu .start_now {
-    padding: 0px;
-    margin-left: 42px;
-  }
-  header .container #menu .start_now li {
-    color: #fff;
   }
   .city{
     padding: 62px 0 0 0;
@@ -439,6 +447,9 @@
   }
   .city .container ul li{
     text-align: center;
+  }
+  .move .cards article{
+    max-width: 180px;
   }
   .move article .price a{
     max-width: 100px;
@@ -515,12 +526,21 @@
   .subscription .container .variants article .price a{
     text-align: center
   }
+  .members .comments{
+    flex-wrap: wrap;
+  }
+  .members .comments .citation{
+    margin-top: 12px;
+  }
   .foot-form {
     display: block;
     margin-bottom: 18px;
   }
   footer .container .foot-info p {
     margin-left: 4px;
+  }
+  footer .foot-lists{
+    flex-wrap: wrap;
   }
 }
 

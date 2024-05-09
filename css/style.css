@@ -186,6 +186,8 @@ a {
   border-radius: 16px;
   padding: 1px 8px;
   max-width: 108px;
+  white-space: nowrap;
+  align-items: center;
 }
 .move article .details p {
   font-family: "Montserrat";
