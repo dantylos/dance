@@ -53,6 +53,7 @@ a{
   padding: 12px 50px;
   color: $white;
   font-family: $font;
+  white-space: nowrap;
 }
 
 .banner{
@@ -162,6 +163,9 @@ a{
     max-width: 334px;
     padding: 66px 24px 32px;
     margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     .move-img{
       max-width: 286px;
       img{
@@ -169,15 +173,15 @@ a{
       }
     }
     .price{
+      align-items: center;
       justify-content: space-between;
-      margin-bottom: 36px;
+      margin-bottom: 24px;
       p{
         font-family: $font;
         font-size: 15px;
         font-weight: 400;
-        line-height: 22px; 
+        line-height: 16px; 
         text-align: left;   
-        max-width: 154px;   
       }
       a{
         font-family: $font;
@@ -189,9 +193,7 @@ a{
         background: #F1EEF8;  
         border-radius: 16px;
         padding: 1px 8px;
-        max-width: 108px;
         white-space: nowrap;
-        align-items: center;
       }
     }
     .details{
@@ -206,8 +208,11 @@ a{
         font-family: $font;
         font-size: 29px;
         font-weight: 400;
-        line-height: 34px;        
-        text-align: left;        
+        line-height: 34px;
+        text-align: left;
+      }
+      .one-step{
+        white-space: nowrap;
       }
       a{
       font-family: $font;

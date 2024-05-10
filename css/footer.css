@@ -8,7 +8,7 @@ footer .container {
 }
 footer .container .foot-info {
   max-width: 314px;
-  margin-bottom: 96px;
+  margin-bottom: 36px;
 }
 footer .container .foot-info label::after {
   content: url(../images/foot-chevron.svg);
