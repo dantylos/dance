@@ -1,168 +1,188 @@
+@media screen and (max-width: 5000px){
+
+}
+
 @media screen and (max-width: 1220px) {
-  .container{
+  .container {
     padding: 0 12px;
   }
-  .working .bikes-img{
+
+  .working .bikes-img {
     max-width: 540px;
   }
 }
 
 @media screen and (max-width: 1042px) {
-  header .main-logo {
-    max-width: 98px;
-  }
-  header .container nav a{
-    font-size: 16px;
-  }
-  header .container nav li:last-of-type {
-    margin-left: 36px;
-    padding: 10px 36px;
-  }
-  header .container nav li:nth-child(4) {
-    margin-left: 32px;
-  }
-  footer .container .foot-lists ul {
-    margin-left: 48px;
-  }
-  header .container nav li:nth-child(2) {
-    margin-left: 28px;
-  }
   .main-banner h1 {
     font-size: 64px;
     line-height: 74px;
     letter-spacing: 4px;
     margin-bottom: 16px;
   }
+
   .main-banner p {
     font-size: 18px;
     margin-bottom: 26px;
   }
+
   .working h2 {
     font-size: 48px;
     line-height: 56px;
     margin-bottom: 48px;
   }
+
   .working ol li {
     font-size: 22px;
     line-height: 28px;
     margin-bottom: 18px;
   }
+
   .working ol li:last-of-type {
     margin-bottom: 36px;
   }
+
   .move h3 {
     font-size: 52px;
     line-height: 48px;
     margin-bottom: 22px;
   }
-  .move p{
+
+  .move p {
     font-size: 20px;
   }
+
   .move article {
     max-width: 320px;
     padding: 48px 18px 24px;
   }
-  .move article .price p{
+
+  .move article .price p {
     font-size: 14px;
-  } 
+  }
+
   .move article .details .dance-article {
     font-size: 21px;
     line-height: 24px;
   }
-  .move article .details p{
+
+  .move article .details p {
     font-size: 15px;
   }
-  .move article .details a{
+
+  .move article .details a {
     padding: 12px 36px 18px 24px;
   }
+
   .care .container h4 {
     font-size: 52px;
     line-height: 52px;
   }
+
   .care .container a {
     padding: 6px 32px 10px 30px;
     margin-top: 26px;
   }
+
   .care .container .care-img {
     max-width: 520px;
   }
-  .city{
+
+  .city {
     padding: 20px 0 12px;
   }
+
   .city .container h4 {
     font-size: 48px;
     line-height: 48px;
     max-width: 320px;
   }
+
   .city .container ul li {
     font-size: 74px;
     line-height: 78px;
   }
+
   .city .container a {
     margin-top: 18px;
   }
+
   .city .container #wantmore {
     margin-top: 20px;
   }
+
   .subscription .container h4 {
     font-size: 52px;
     line-height: 48px;
     margin-bottom: 18px;
-    }
-    .subscription article {
-      max-width: 320px;
-      padding: 48px 18px 24px;
-    }
-    .subscription article .price p{
-      font-size: 14px;
-    } 
-    .subscription article .details .dance-article {
-      font-size: 24px;
-      line-height: 28px;
-    }
-    .subscription article .details p{
-      font-size: 15px;
-    }
-    .subscription article .details a{
-      padding: 12px 36px 18px 24px;
-    }
-    .members .container h3 {
-      font-family: "Montserrat";
-      font-size: 52px;
-      font-weight: 400;
-      line-height: 56px;
-      text-align: left;
-      margin-bottom: 48px;
-    }
-    .members .container .citation {
-      max-width: 260px;
-      min-height: 140px;
-    }
-    .members .container .citation p:first-of-type {
-      font-size: 24px;
-      line-height: 26px;
-    }
-    .members .container .citation p {
-      font-size: 16px;
-    }
-    footer .container .foot-info .regist {
-      margin-top: 22px;
-      padding: 14px 86px 14px 12px;
-    }
-    footer .container .foot-info{
-      max-width: 240px;
-    }
-    footer .container .foot-info h4 {
-        font-size: 26px;
-        line-height: 28px;
-      }
-      footer .container .foot-info p{
-        margin-top: 8px;
-      } 
-      footer .container .foot-lists ul li {
-        font-size: 14px;
-        line-height: 16px;
-      }
+  }
+
+  .subscription article {
+    max-width: 320px;
+    padding: 48px 18px 24px;
+  }
+
+  .subscription article .price p {
+    font-size: 14px;
+  }
+
+  .subscription article .details .dance-article {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .subscription article .details p {
+    font-size: 15px;
+  }
+
+  .subscription article .details a {
+    padding: 12px 36px 18px 24px;
+  }
+
+  .members .container h3 {
+    font-family: "Montserrat";
+    font-size: 52px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: left;
+    margin-bottom: 48px;
+  }
+
+  .members .container .citation {
+    max-width: 260px;
+    min-height: 140px;
+  }
+
+  .members .container .citation p:first-of-type {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  .members .container .citation p {
+    font-size: 16px;
+  }
+
+  footer .container .foot-info .regist {
+    margin-top: 22px;
+    padding: 14px 86px 14px 12px;
+  }
+
+  footer .container .foot-info {
+    max-width: 240px;
+  }
+
+  footer .container .foot-info h4 {
+    font-size: 26px;
+    line-height: 28px;
+  }
+
+  footer .container .foot-info p {
+    margin-top: 8px;
+  }
+
+  footer .container .foot-lists ul li {
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -170,255 +190,302 @@
     max-width: 290px;
     padding: 36px 8px 14px;
   }
+
+  .foot-lists{
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 820px) {
-  .move article{
+  .move article {
     max-width: 250px;
   }
+
   .members .container .citation {
     max-width: 220px;
     min-height: 128px;
   }
+
   .working h2 {
     font-size: 38px;
     line-height: 42px;
     margin-bottom: 32px;
   }
+
   .working ol li {
     font-size: 20px;
     line-height: 18px;
     margin-bottom: 14px;
   }
+
   .working ol li:last-of-type {
     margin-bottom: 28px;
   }
+
   .move article {
     max-width: 240px;
     padding: 36px 6px 14px;
   }
-  .moped{
+
+  .moped {
     margin-bottom: 29px;
   }
+
   .working .bikes-img {
     max-width: 510px;
   }
+
   footer .container .foot-lists ul {
     margin-left: 20px;
   }
+
   footer .container .foot-lists ul li {
     font-size: 14px;
     line-height: 8px;
   }
+
   footer .container .foot-lists ul li a {
     font-size: 14px;
     line-height: 20px;
   }
 }
+
 @media screen and (max-width: 767px) {
-  header .container{
-    padding: 0 16px;
-  }
-  .accordion {
-      padding: 0 16px;
-  }
-  .main-menu{
-    display: none;
-  }
-  .burger{
+  .hamburger-container{
     display: block;
   }
-  #menu {
-    transform: none;
-    opacity: 0;
+  ul#menu{
+    display: none;
+    background-color: #b34ec1;
+    position: absolute;
+    top: 94px;
+    height: calc(100vh - 94px);
+    right: 0;
+    padding: 24px 12px;
+    width: -webkit-fill-available;
+  }
 
-    transition: opacity 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  ul#menu li a{
+    margin-top: 24px;
   }
-  header .container #menu li{
-    border-radius: 24px;
-    padding: 10px 0;
-    color: black;
-    background: none;
+
+  #head-start{
+    position: relative;
+    right: 8px;
   }
-  #menu .head-start li:last-of-type{
-    color: #fff;
+
+  .accordion {
+    padding: 0 12px;
   }
+
   .main-banner h1 {
-      font-size: 56px;
-      line-height: 62px;
+    font-size: 56px;
+    line-height: 62px;
   }
-  .working{
+
+  .working {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: end;
   }
-  .working .bikes-img{
+
+  .working .bikes-img {
     position: inherit;
     justify-content: end;
   }
-  .working .container{
+
+  .working .container {
     display: flex;
     justify-content: center;
   }
-  .working .container ol{
+
+  .working .container ol {
     margin-left: 26px;
   }
-  #work-link{
+
+  #work-link {
     display: flex;
     justify-content: center;
     margin-bottom: 32px;
   }
-  .move h3{
+
+  .move h3 {
     text-align: center;
     font-size: 42px;
     line-height: 36px;
   }
-  .move p{
+
+  .move p {
     text-align: center;
     font-size: 18px;
-  } 
-  .move article .price a{
+  }
+
+  .move article .price a {
     padding: 1px 6px;
   }
-  .owl-stage{
+
+  .owl-stage {
     display: flex;
     align-items: center;
   }
-  #menuToggle{
-    top: 32px;
-    right: 36px;
-  }
-  .care .container{
+
+  .care .container {
     display: block;
   }
-  .care .container h4{
+
+  .care .container h4 {
     text-align: center;
     font-size: 42px;
     line-height: 48px;
   }
-  .care .container p{
+
+  .care .container p {
     text-align: center;
     font-size: 16px;
     line-height: 20px;
   }
-  .care .container a{
+
+  .care .container a {
     margin: 24px 0;
   }
-  .care .container .care-link{
+
+  .care .container .care-link {
     display: flex;
     justify-content: center;
   }
-  .care .container .care-info{
+
+  .care .container .care-info {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .care .container .care-img{
+
+  .care .container .care-img {
     margin: auto;
   }
+
   .city .container ul li {
     font-size: 56px;
     line-height: 68px;
   }
-  .subscription .container{
+
+  .subscription .container {
     flex-direction: column;
   }
+
   .subscription .container h4 {
     font-size: 42px;
     line-height: 38px;
     margin-bottom: 18px;
     text-align: center;
   }
+
   .subscription .container p {
     font-size: 18px;
     margin-bottom: 18px;
     max-width: 220px;
     text-align: center;
   }
-  .variants-info{
+
+  .variants-info {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .more .container{
+
+  .more .container {
     display: block;
   }
-  .more .container .more-info{
+
+  .more .container .more-info {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  .more .container .more-info h3{
+
+  .more .container .more-info h3 {
     text-align: center;
     font-size: 56px;
     line-height: 62px;
     margin-bottom: 36px;
   }
-  .more a{
+
+  .more a {
     margin-bottom: 42px;
   }
+
   .members .container h3 {
     font-size: 42px;
     line-height: 48px;
     margin-bottom: 36x;
   }
+
   .members .container .citation p:first-of-type {
     font-size: 20px;
     line-height: 22px;
   }
+
   .members .container .citation p {
     font-size: 14px;
   }
+
   .members .container .citation {
     max-width: 182px;
     min-height: 120px;
   }
+
   .subscription .container .variants article .details .dance-article {
     font-size: 26px;
   }
+
   .city .container h4 {
     font-size: 36px;
     line-height: 36px;
     max-width: 320px;
   }
+
   .city .container p {
     font-size: 20px;
     line-height: 22px;
     margin-top: 10px;
   }
+
   .city .container #wantmore {
     font-size: 16px;
     line-height: 20px;
   }
-  #menu{
-    right: -36px;
-  }
-  footer{
+
+  footer {
     padding: 62px 0 20px;
   }
-  .foot-form{
+
+  .foot-form {
     display: block;
   }
-  footer .container .foot-info{
+
+  footer .container .foot-info {
     display: flex;
     max-width: 420px;
   }
+
   footer .container .foot-info p {
     margin-left: 24px;
   }
 }
 
-@media screen and (max-width: 520px){
-  .move .cards article{
+@media screen and (max-width: 520px) {
+  .move .cards article {
     max-width: 228px;
     padding: 26px 6px 14px;
   }
-  .move .cards article .price p{
+
+  .move .cards article .price p {
     max-width: 82px;
     font-size: 12px;
   }
-  .move .cards article .price a{
+
+  .move .cards article .price a {
     font-size: 13px;
   }
 
@@ -432,176 +499,201 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-.subscription .container .variants article .price a {
-  font-family: "Montserrat";
-  font-size: 13px;
-  font-weight: 400;
-  line-height: 42px;
-  text-align: left;
-  color: #7140EB;
-  background: #F1EEF8;
-  border-radius: 16px;
-  padding: 1px 8px;
-  max-width: 108px;
-  white-space: nowrap;
-}
-.subscription .container .variants article .details .start_now {
-  padding: 12px 32px;
-  border-radius: 36px;
-}
+  }
 
-  .city{
+  .subscription .container .variants article .price a {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    color: #7140EB;
+    background: #F1EEF8;
+    border-radius: 16px;
+    padding: 1px 8px;
+    max-width: 108px;
+    white-space: nowrap;
+  }
+
+  .subscription .container .variants article .details .start_now {
+    padding: 12px 32px;
+    border-radius: 36px;
+  }
+
+  .city {
     padding: 32px 0 0 0;
   }
+
   .city .container #wantmore {
     margin-bottom: 42px;
   }
-  .city .container{
+
+  .city .container {
     flex-direction: column;
     align-items: center;
   }
-  .city .container ul li{
+
+  .city .container ul li {
     text-align: center;
   }
 }
 
-@media screen and (max-width: 490px){
-  .move .cards article{
+@media screen and (max-width: 490px) {
+  .move .cards article {
     max-width: 210px;
   }
 }
 
-@media screen and (max-width: 460px){
-  .move .cards article{
+@media screen and (max-width: 460px) {
+  .move .cards article {
     max-width: 210px;
   }
 }
 
 @media screen and (max-width: 431px) {
-  #menu{
-    padding: 100px 50px 50px 12px;
-  }
-  header .container #menu li:last-of-type {
-    margin-left: 0px;
-    padding: 14px 42px;
-  }
-  .move .cards article{
+  .move .cards article {
     max-width: 180px;
   }
-  .move article .price a{
+
+  .move article .price a {
     max-width: 100px;
   }
+
   .move article .price p {
     max-width: 68px;
   }
+
   footer .container .foot-info {
     display: block;
   }
+
   footer .container .foot-info p {
     margin-left: 12px;
   }
+
   .members .container .citation {
     max-width: 100px;
     min-height: 120px;
   }
+
   .subscription .container .variants article:first-of-type {
     margin-left: 0px;
   }
+
   .subscription .container .variants article {
     padding: 36px 8px 24px;
     margin-top: 48px;
   }
+
   .subscription .container .variants article .price p {
     font-size: 14px;
     line-height: 20px;
     max-width: 80px;
   }
+
   .subscription .container .variants article .details .dance-article {
     font-size: 19px;
   }
+
   .subscription .container .variants article .price {
     justify-content: space-between;
     margin-bottom: 14px;
   }
+
   .subscription .container .variants article .price {
     margin-bottom: 14px;
   }
+
   .subscription .container .variants article {
     padding: 28px 6px 24px;
   }
+
   .subscription .container .variants article .price p {
     font-size: 14px;
     line-height: 18px;
     max-width: 100px;
   }
+
   .subscription .container .variants article .price p {
     font-size: 14px;
     line-height: 18px;
     max-width: 100px;
   }
+
   .move .cards article {
     max-width: 160px;
     padding: 36px 6px 14px;
   }
+
   .move article .price {
     justify-content: space-between;
     margin-bottom: 24px;
   }
+
   .move article .price p {
     max-width: 90px;
   }
+
   .move article .price a {
     text-align: center;
   }
+
   .move article .details .dance-article {
     font-size: 19px;
     line-height: 24px;
   }
+
   .move article .details a {
     padding: 6px 12px 10px;
     white-space: nowrap;
   }
-  .owl-carousel.owl-drag .owl-item{
+
+  .owl-carousel.owl-drag .owl-item {
     width: initial;
   }
-  .subscription .container .variants article .price a{
+
+  .subscription .container .variants article .price a {
     text-align: center
   }
-  .members .comments{
+
+  .members .comments {
     flex-wrap: wrap;
   }
-  .members .comments .citation{
+
+  .members .comments .citation {
     margin-top: 12px;
   }
+
   .foot-form {
     display: block;
     margin-bottom: 18px;
   }
+
   footer .container .foot-info p {
     margin-left: 4px;
   }
-  footer .foot-lists{
+
+  footer .foot-lists {
     flex-wrap: wrap;
   }
 }
 
-@media screen and (max-width:360px){
-  .move .cards article{
+@media screen and (max-width:360px) {
+  .move .cards article {
     max-width: 144px;
   }
+
   .move article .details .dance-article {
     font-size: 16px;
     line-height: 22px;
   }
+
   .move article .details p {
     font-size: 14px;
   }
 
-
-  .subscription .container .variants{
+  .subscription .container .variants {
     flex-direction: column;
     align-items: baseline;
   }
 }
-

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,59 +9,48 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
 </head>
-<div> 
+<div>
 
   <div class="banner">
 
-  <header>
+    <header>
       <div class="container flex">
 
         <div class="main-logo">
           <a href="index.html"><img class="block" src="images/logo.svg" alt="logo"></a>
         </div>
 
+        <nav>
 
-        <nav class="burger" role='navigation'>
-          <div id="menuToggle">
-
-            <input type="checkbox" />
-            
-            <span></span>
-            <span></span>
-            <span></span>
-
-            <ul id="menu">
-              <a href="#"><li>Concierge</li></a>
-              <a href="#"><li>Rides</li></a>
-              <a href="#"><li>For Business</li></a>
-              <a href="#"><li>En</li></a>
-              <a class="head-start" href="#"><li>Start now</li></a>
+          <div class="hamburger-container">
+            <ul class="hamburger ls-none">
+              <li></li>
+              <li></li>
+              <li></li>
             </ul>
           </div>
-        </nav>
 
-
-        <nav class="main-menu">
-          <ul class="flex ls-none">
+          <ul id="menu" class="ls-none">
             <li><a href="#">Concierge</a></li>
             <li><a href="#">Rides</a></li>
             <li><a href="#">For Business</a></li>
             <li><a href="#">En</a></li>
-            <li><a href="#">Start now</a></li>
+            <li><a id="head-start" href="#">Start now</a></li>
           </ul>
+
         </nav>
 
       </div>
 
-  </header>
-  
-      <section class="main-banner">
+    </header>
 
-        <div class="wrapper flex">
-            <h1>Your future is electric</h1>
-            <p>Get your own ebike or emoped with our flexible subscription</p>
-            <a class="start_now" href="#">Start now</a>
-        </div>
+    <section class="main-banner">
+
+      <div class="wrapper flex">
+        <h1>Your future is electric</h1>
+        <p>Get your own ebike or emoped with our flexible subscription</p>
+        <a class="start_now" href="#">Start now</a>
+      </div>
 
     </section>
 
@@ -68,265 +58,293 @@
 
   <main>
 
-      <section class="working">
+    <section class="working">
 
-        <div class="container">
+      <div class="container">
 
-          <div>
-            <h2>How it works</h2>
-            <ol>
-              <li>Pick your city</li>
-              <li>Choose your ride</li>
-              <li>Delivery to your door</li>
-              <li>Ride freely</li>
-            </ol>
-            <div id="work-link">
-              <a class="start_now" href="#">Start now</a>
+        <div>
+          <h2>How it works</h2>
+          <ol>
+            <li>Pick your city</li>
+            <li>Choose your ride</li>
+            <li>Delivery to your door</li>
+            <li>Ride freely</li>
+          </ol>
+          <div id="work-link">
+            <a class="start_now" href="#">Start now</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="bikes-img">
+        <img class="block" src="images/bikes.png" alt="product">
+      </div>
+
+    </section>
+
+    <section class="move">
+      <div class="container">
+
+        <h3>Move your way</h3>
+        <p>Choose the electric ride that suits your lifestyle.</p>
+
+        <div class="owl-carousel cards flex">
+
+
+          <article>
+
+            <div class="move-img">
+              <img class="block" src="images/bicycle.png" alt="product">
             </div>
-          </div>
 
-        </div>
+            <div class="price flex">
+              <p>From €59 €39/mo</p>
+              <a href="#">Winter offer</a>
+            </div>
 
-        <div class="bikes-img">
-          <img class="block" src="images/bikes.png" alt="product">
-        </div>
-
-      </section>
-
-      <section class="move">
-        <div class="container">
-
-          <h3>Move your way</h3>
-          <p>Choose the electric ride that suits your lifestyle.</p>
-
-          <div class="owl-carousel cards flex">
-
-
-            <article>
-
-              <div class="move-img">
-                <img class="block" src="images/bicycle.png" alt="product">
-              </div>
-
-              <div class="price flex">
-                <p>From €59 €39/mo</p>
-                <a href="#">Winter offer</a>
-              </div>
-
-              <div class="details">
-                <p class="dance-article one-step">Dance One Step</p>
-                <p>Ebike</p>
-                <a href="#">See details</a>
-              </div>
-
-            </article>
-
-            <article>
-
-              <div class="move-img">
-                <img class="block" src="images/bicycle.png" alt="product">
-              </div>
-
-              <div class="price flex">
-                <p>From €59 €39/mo</p>
-                <a href="#">Winter offer</a>
-              </div>
-
-              <div class="details">
-                <p class="dance-article">Dance One</p>
-                <p>Ebike</p>
-                <a href="#">See details</a>
-              </div>
-
-            </article>
-
-            <article>
-
-              <div class="move-img">
-                <img class="block" src="images/moped.png" alt="product">
-              </div>
-
-              <div class="mopeed price flex">
-                <p>From €89 €39/mo</p>
-                <a href="#">Winter offer</a>
-              </div>
-
-              <div class="details">
-                <p class="dance-article">Dance Moped</p>
-                <p>Emoped</p>
-                <a href="#">See details</a>
-              </div>
-
-            </article>
-          </div>
-
-        </div>
-      </section>
-
-      <section class="care">
-        <div class="container flex">
-          <div class="care-info">
-            <h4>Just ride—we’ll take care of the rest</h4>
-            <p>Your local Concierge Team will repair or replace your ride within 24 hours—all included with your subscription.</p>
-            <div class="care-link">
+            <div class="details">
+              <p class="dance-article one-step">Dance One Step</p>
+              <p>Ebike</p>
               <a href="#">See details</a>
             </div>
-          </div>
-          <div class="care-img">
-            <img class="block" src="images/care.jpg" alt="img">
+
+          </article>
+
+          <article>
+
+            <div class="move-img">
+              <img class="block" src="images/bicycle.png" alt="product">
+            </div>
+
+            <div class="price flex">
+              <p>From €59 €39/mo</p>
+              <a href="#">Winter offer</a>
+            </div>
+
+            <div class="details">
+              <p class="dance-article">Dance One</p>
+              <p>Ebike</p>
+              <a href="#">See details</a>
+            </div>
+
+          </article>
+
+          <article>
+
+            <div class="move-img">
+              <img class="block" src="images/moped.png" alt="product">
+            </div>
+
+            <div class="mopeed price flex">
+              <p>From €89 €39/mo</p>
+              <a href="#">Winter offer</a>
+            </div>
+
+            <div class="details">
+              <p class="dance-article">Dance Moped</p>
+              <p>Emoped</p>
+              <a href="#">See details</a>
+            </div>
+
+          </article>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="care">
+      <div class="container flex">
+        <div class="care-info">
+          <h4>Just ride—we’ll take care of the rest</h4>
+          <p>Your local Concierge Team will repair or replace your ride within 24 hours—all included with your
+            subscription.</p>
+          <div class="care-link">
+            <a href="#">See details</a>
           </div>
         </div>
-      </section>
+        <div class="care-img">
+          <img class="block" src="images/care.jpg" alt="img">
+        </div>
+      </div>
+    </section>
 
-      <section class="city">
-        <div class="container flex">
-          <div>
-            <h4>Your city is our city</h4>
-            <p>Our rides are available in 5 European cities — and counting.</p>
-            <a class="start_now" href="#">Start now</a>
-            <p id="wantmore">Want to see Dance in your city?</p>
-          </div>
+    <section class="city">
+      <div class="container flex">
+        <div>
+          <h4>Your city is our city</h4>
+          <p>Our rides are available in 5 European cities — and counting.</p>
+          <a class="start_now" href="#">Start now</a>
+          <p id="wantmore">Want to see Dance in your city?</p>
+        </div>
+        <ul class="ls-none">
+          <li>Berlin</li>
+          <li>Hamburg</li>
+          <li>Munich</li>
+          <li>Paris</li>
+          <li>Vienna</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="subscription">
+      <div class="container flex">
+        <div class="variants-info">
+          <h4>You’re in charge</h4>
+          <p>Your subscription is fully flexible—with free cancelation at any time and no sign-up fees.</p>
           <ul class="ls-none">
-            <li>Berlin</li>
-            <li>Hamburg</li>
-            <li>Munich</li>
-            <li>Paris</li>
-            <li>Vienna</li>
+            <li>Repairs within 24 hours</li>
+            <li>Replacements in case of theft</li>
+            <li>App to track your rides</li>
+            <li>Cancel anytime</li>
           </ul>
         </div>
-      </section>
+        <div class="flex variants">
+          <article>
 
-      <section class="subscription">
-        <div class="container flex">
-          <div class="variants-info">
-            <h4>You’re in charge</h4>
-            <p>Your subscription is fully flexible—with free cancelation at any time and no sign-up fees.</p>
-            <ul class="ls-none">
-              <li>Repairs within 24 hours</li>
-              <li>Replacements in case of theft</li>
-              <li>App to track your rides</li>
-              <li>Cancel anytime</li>
-            </ul>
+            <div class="move-img">
+              <img class="block" src="images/bicycle.png" alt="product">
+            </div>
+
+            <div class="price flex">
+              <p>From €59 €39/mo</p>
+              <a href="#">Winter offer</a>
+            </div>
+
+            <div class="details">
+              <p class="dance-article">Dance One Step</p>
+              <p>Ebike</p>
+              <a class="start_now" href="#">start now</a>
+            </div>
+
+          </article>
+
+          <article>
+
+            <div class="move-img">
+              <img class="block" src="images/moped.png" alt="product">
+            </div>
+
+            <div class="price flex">
+              <p>From €89 €39/mo</p>
+              <a href="#">Winter offer</a>
+            </div>
+
+            <div class="details">
+              <p class="dance-article">Dance Moped</p>
+              <p>Emoped</p>
+              <a class="start_now" href="#">start now</a>
+            </div>
+
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="more">
+      <div class="container flex">
+
+        <div class="more-info">
+          <h3>Want to know more?</h3>
+          <a href="#">Learn more</a>
+        </div>
+
+        <ul class="accordion ls-none">
+
+          <li class="accordion-item">
+            <input type="checkbox" id="accordion1">
+            <label for="accordion1" class="accordion-item-title"><span class="icon"></span>How does Dance work?</label>
+            <div class="accordion-item-desc">SEO, or Search Engine Optimization, is the practice of optimizing a website
+              to improve its visibility on search engines like Google. It involves various techniques to enhance a
+              site's ranking in search results. SEO is crucial for online businesses as it helps drive organic traffic,
+              increases visibility, and ultimately leads to higher conversions.</div>
+          </li>
+
+          <li class="accordion-item">
+            <input type="checkbox" id="accordion2">
+            <label for="accordion2" class="accordion-item-title"><span class="icon"></span>How do I charge my Dance
+              eride?</label>
+            <div class="accordion-item-desc">The timeline for seeing results from SEO can vary based on several factors,
+              such as the competitiveness of keywords, the current state of the website, and the effectiveness of the
+              SEO strategy. Generally, it may take several weeks to months before noticeable improvements occur.
+              However, long-term commitment to SEO is essential for sustained success.</div>
+          </li>
+
+          <li class="accordion-item">
+            <input type="checkbox" id="accordion3">
+            <label for="accordion3" class="accordion-item-title"><span class="icon"></span>What accessories can I use
+              with my ebike and emoped?</label>
+            <div class="accordion-item-desc">A successful SEO strategy involves various components, including keyword
+              research, on-page optimization, quality content creation, link building, technical SEO, and user
+              experience optimization. These elements work together to improve a website's relevance and authority in
+              the eyes of search engines.</div>
+          </li>
+
+          <li class="accordion-item">
+            <input type="checkbox" id="accordion4">
+            <label for="accordion4" class="accordion-item-title"><span class="icon"></span>How do repairs work?</label>
+            <div class="accordion-item-desc">Mobile optimization is crucial for SEO because search engines prioritize
+              mobile-friendly websites. With the increasing use of smartphones, search engines like Google consider
+              mobile responsiveness as a ranking factor. Websites that provide a seamless experience on mobile devices
+              are more likely to rank higher in search results.</div>
+          </li>
+
+          <li class="accordion-item">
+            <input type="checkbox" id="accordion5">
+            <label for="accordion5" class="accordion-item-title"><span class="icon"></span>Can I test the ride before
+              buying?</label>
+            <div class="accordion-item-desc">Backlinks, or inbound links from other websites to yours, play a
+              significant role in SEO. They are considered a vote of confidence and can improve a site's authority.
+              Quality over quantity is crucial when acquiring backlinks. Strategies for obtaining backlinks include
+              creating high-quality content, guest posting, reaching out to industry influencers, and participating in
+              community activities. It's important to focus on natural and ethical link-building practices.</div>
+          </li>
+
+          <li class="accordion-item">
+            <input type="checkbox" id="accordion6">
+            <label for="accordion6" class="accordion-item-title"><span class="icon"></span>How do I cancel my
+              membership?</label>
+            <div class="accordion-item-desc">The timeline for seeing results from SEO can vary based on several factors,
+              such as the competitiveness of keywords, the current state of the website, and the effectiveness of the
+              SEO strategy. Generally, it may take several weeks to months before noticeable improvements occur.
+              However, long-term commitment to SEO is essential for sustained success.</div>
+          </li>
+
+          <li class="accordion-item">
+            <input type="checkbox" id="accordion7">
+            <label for="accordion7" class="accordion-item-title"><span class="icon"></span>What happens if my vehicle
+              gets stolen?</label>
+            <div class="accordion-item-desc">The timeline for seeing results from SEO can vary based on several factors,
+              such as the competitiveness of keywords, the current state of the website, and the effectiveness of the
+              SEO strategy. Generally, it may take several weeks to months before noticeable improvements occur.
+              However, long-term commitment to SEO is essential for sustained success.</div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section>
+
+    <section class="members">
+      <div class="container">
+        <h3>What our members say</h3>
+        <div class="comments space_bw flex">
+          <div class="citation">
+            <p>It's super efficient, no sweat, very stable and I get everywhere faster.</p>
+            <p>Luna, Berlin</p>
           </div>
-          <div class="flex variants">
-            <article>
-
-              <div class="move-img">
-                <img class="block" src="images/bicycle.png" alt="product">
-              </div>
-
-              <div class="price flex">
-                <p>From €59 €39/mo</p>
-                <a href="#">Winter offer</a>
-              </div>
-
-              <div class="details">
-                <p class="dance-article">Dance One Step</p>
-                <p>Ebike</p>
-                <a class="start_now" href="#">start now</a>
-              </div>
-
-            </article>
-
-            <article>
-
-              <div class="move-img">
-                <img class="block" src="images/moped.png" alt="product">
-              </div>
-
-              <div class="price flex">
-                <p>From €89 €39/mo</p>
-                <a href="#">Winter offer</a>
-              </div>
-
-              <div class="details">
-                <p class="dance-article">Dance Moped</p>
-                <p>Emoped</p>
-                <a class="start_now" href="#">start now</a>
-              </div>
-
-            </article>
+          <div class="citation">
+            <p>My Dance bike just makes my commute light and fun.</p>
+            <p>James, Berlin</p>
+          </div>
+          <div class="citation">
+            <p>I don’t have to worry anymore about my old bike breaking down.</p>
+            <p>Travis, Hamburg</p>
           </div>
         </div>
-      </section>
 
-      <section class="more">
-        <div class="container flex">
-
-          <div class="more-info">
-            <h3>Want to know more?</h3>
-            <a href="#">Learn more</a>
-          </div>
-
-          <ul class="accordion ls-none">
-            
-            <li class="accordion-item">
-                <input type="checkbox" id="accordion1">
-                <label for="accordion1" class="accordion-item-title"><span class="icon"></span>How does Dance work?</label>
-                <div class="accordion-item-desc">SEO, or Search Engine Optimization, is the practice of optimizing a website to improve its visibility on search engines like Google. It involves various techniques to enhance a site's ranking in search results. SEO is crucial for online businesses as it helps drive organic traffic, increases visibility, and ultimately leads to higher conversions.</div>
-            </li>
-        
-            <li class="accordion-item">
-                <input type="checkbox" id="accordion2">
-                <label for="accordion2" class="accordion-item-title"><span class="icon"></span>How do I charge my Dance eride?</label>
-                <div class="accordion-item-desc">The timeline for seeing results from SEO can vary based on several factors, such as the competitiveness of keywords, the current state of the website, and the effectiveness of the SEO strategy. Generally, it may take several weeks to months before noticeable improvements occur. However, long-term commitment to SEO is essential for sustained success.</div>
-            </li>
-        
-            <li class="accordion-item">
-                <input type="checkbox" id="accordion3">
-                <label for="accordion3" class="accordion-item-title"><span class="icon"></span>What accessories can I use with my ebike and emoped?</label>
-                <div class="accordion-item-desc">A successful SEO strategy involves various components, including keyword research, on-page optimization, quality content creation, link building, technical SEO, and user experience optimization. These elements work together to improve a website's relevance and authority in the eyes of search engines.</div>
-            </li>
-        
-            <li class="accordion-item">
-                <input type="checkbox" id="accordion4">
-                <label for="accordion4" class="accordion-item-title"><span class="icon"></span>How do repairs work?</label>
-                <div class="accordion-item-desc">Mobile optimization is crucial for SEO because search engines prioritize mobile-friendly websites. With the increasing use of smartphones, search engines like Google consider mobile responsiveness as a ranking factor. Websites that provide a seamless experience on mobile devices are more likely to rank higher in search results.</div>
-            </li>
-        
-            <li class="accordion-item">
-                <input type="checkbox" id="accordion5">
-                <label for="accordion5" class="accordion-item-title"><span class="icon"></span>Can I test the ride before buying?</label>
-                <div class="accordion-item-desc">Backlinks, or inbound links from other websites to yours, play a significant role in SEO. They are considered a vote of confidence and can improve a site's authority. Quality over quantity is crucial when acquiring backlinks. Strategies for obtaining backlinks include creating high-quality content, guest posting, reaching out to industry influencers, and participating in community activities. It's important to focus on natural and ethical link-building practices.</div>
-            </li>
-
-            <li class="accordion-item">
-              <input type="checkbox" id="accordion6">
-              <label for="accordion6" class="accordion-item-title"><span class="icon"></span>How do I cancel my membership?</label>
-              <div class="accordion-item-desc">The timeline for seeing results from SEO can vary based on several factors, such as the competitiveness of keywords, the current state of the website, and the effectiveness of the SEO strategy. Generally, it may take several weeks to months before noticeable improvements occur. However, long-term commitment to SEO is essential for sustained success.</div>
-            </li>
-
-            <li class="accordion-item">
-              <input type="checkbox" id="accordion7">
-              <label for="accordion7" class="accordion-item-title"><span class="icon"></span>What happens if my vehicle gets stolen?</label>
-              <div class="accordion-item-desc">The timeline for seeing results from SEO can vary based on several factors, such as the competitiveness of keywords, the current state of the website, and the effectiveness of the SEO strategy. Generally, it may take several weeks to months before noticeable improvements occur. However, long-term commitment to SEO is essential for sustained success.</div>
-            </li>
-        
-          </ul>
-
-        </div>
-      </section>
-
-      <section class="members">
-        <div class="container">
-          <h3>What our members say</h3>
-          <div class="comments space_bw flex">
-            <div class="citation">
-              <p>It's super efficient, no sweat, very stable and I get everywhere faster.</p>
-              <p>Luna, Berlin</p>
-            </div>
-            <div class="citation">
-              <p>My Dance bike just makes my commute light and fun.</p>
-              <p>James, Berlin</p>
-            </div>
-            <div class="citation">
-              <p>I don’t have to worry anymore about my old bike breaking down.</p>
-              <p>Travis, Hamburg</p>
-            </div>
-          </div>
-
-        </div>
-      </section>
+      </div>
+    </section>
   </main>
 
 
@@ -346,7 +364,8 @@
             </form>
           </div>
           <div>
-            <p>By checking this box, you allow Dance to collect data relating to the Dance newsletter, including whether it has been opened and clicked through. For more information.</p>
+            <p>By checking this box, you allow Dance to collect data relating to the Dance newsletter, including whether
+              it has been opened and clicked through. For more information.</p>
           </div>
         </div>
 
@@ -393,9 +412,11 @@
     </div>
   </footer>
 
-<script src="js/script.js"></script>
-<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="js/script.js"></script>
-</body>
+  <script src="js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="js/owl.carousel.js"></script>
+  <script src="js/script.js"></script>
+  </body>
+
 </html>
