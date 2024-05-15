@@ -328,12 +328,11 @@ a {
 .city {
   background-image: url(../images/flee.jpg);
   background-size: cover;
-  height: 100vh;
-  padding: 98px 0 60px;
+  padding: 92px 0;
 
   .container {
     justify-content: space-between;
-    align-items: end;
+    align-items: center;
 
     ul {
       li {

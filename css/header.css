@@ -23,14 +23,14 @@ ul#menu {
 }
 ul#menu #head-start {
   background-color: blueviolet;
-  border-radius: 16px;
-  padding: 8px 12px;
+  border-radius: 20px;
+  padding: 10px 16px;
 }
 ul#menu li a {
   display: inline-block;
   color: #fff;
   transition: background 0.2s;
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Montserrat", sans-serif;
 }
 

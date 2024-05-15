@@ -87,10 +87,6 @@
     max-width: 520px;
   }
 
-  .city {
-    padding: 20px 0 12px;
-  }
-
   .city .container h4 {
     font-size: 48px;
     line-height: 48px;
@@ -261,17 +257,18 @@
     top: 94px;
     height: calc(100vh - 94px);
     right: 0;
-    padding: 24px 12px;
+    padding: 24px 52px;
     width: -webkit-fill-available;
-  }
-
-  ul#menu li a{
-    margin-top: 24px;
   }
 
   #head-start{
     position: relative;
-    right: 8px;
+    right: 16px;
+  }
+
+  ul#menu li a{
+    margin-top: 24px;
+    font-size: 26px;
   }
 
   .accordion {
@@ -439,21 +436,32 @@
     font-size: 26px;
   }
 
-  .city .container h4 {
-    font-size: 36px;
-    line-height: 36px;
-    max-width: 320px;
+  .city .container {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .city .container p {
-    font-size: 20px;
-    line-height: 22px;
-    margin-top: 10px;
+  .city .container ul li{
+    text-align: center;
+  }
+
+  .city .container h4{
+    text-align: center;
+  }
+
+  .city .container p{
+    text-align: center;
   }
 
   .city .container #wantmore {
     font-size: 16px;
     line-height: 20px;
+    margin-bottom: 42px;
+    text-align: center;
+  }
+
+  .city .container .city-link{
+    justify-content: center;
   }
 
   footer {
@@ -520,22 +528,6 @@
     border-radius: 36px;
   }
 
-  .city {
-    padding: 32px 0 0 0;
-  }
-
-  .city .container #wantmore {
-    margin-bottom: 42px;
-  }
-
-  .city .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .city .container ul li {
-    text-align: center;
-  }
 }
 
 @media screen and (max-width: 490px) {
@@ -545,24 +537,35 @@
 }
 
 @media screen and (max-width: 460px) {
-  .move .cards article {
-    max-width: 210px;
+  .move .cards article{
+    margin-top: 68px;
+    max-width: 300px;
+    padding: 32px 16px;
+  }
+
+  .move .cards article .price p{
+    max-width: inherit;
+    font-size: 17px;
+  }
+
+  .move .cards article .price a{
+    font-size: 16px;
+  }
+
+  .move article .details .dance-article{
+    font-size: 26px;
+  }
+
+  .move article .details p{
+    font-size: 16px;
+  }
+
+  .move article .details a{
+    font-size: 18px;
   }
 }
 
 @media screen and (max-width: 431px) {
-  .move .cards article {
-    max-width: 180px;
-  }
-
-  .move article .price a {
-    max-width: 100px;
-  }
-
-  .move article .price p {
-    max-width: 68px;
-  }
-
   footer .container .foot-info {
     display: block;
   }
@@ -620,34 +623,6 @@
     max-width: 100px;
   }
 
-  .move .cards article {
-    max-width: 160px;
-    padding: 36px 6px 14px;
-  }
-
-  .move article .price {
-    justify-content: space-between;
-    margin-bottom: 24px;
-  }
-
-  .move article .price p {
-    max-width: 90px;
-  }
-
-  .move article .price a {
-    text-align: center;
-  }
-
-  .move article .details .dance-article {
-    font-size: 19px;
-    line-height: 24px;
-  }
-
-  .move article .details a {
-    padding: 6px 12px 10px;
-    white-space: nowrap;
-  }
-
   .owl-carousel.owl-drag .owl-item {
     width: initial;
   }
@@ -679,21 +654,31 @@
 }
 
 @media screen and (max-width:360px) {
-  .move .cards article {
-    max-width: 144px;
-  }
-
-  .move article .details .dance-article {
-    font-size: 16px;
-    line-height: 22px;
-  }
-
-  .move article .details p {
-    font-size: 14px;
+  .city .container ul li{
+    font-size: 48px;
   }
 
   .subscription .container .variants {
     flex-direction: column;
     align-items: baseline;
+  }
+
+  .more {
+    padding: 68px 0 58px;
+  }
+
+  .more .container .more-info h3 {
+    font-size: 46px;
+    line-height: 58px;
+    margin-bottom: 28px;
+  }
+
+  .accordion-item .accordion-item-title {
+    font-size: 19px;
+    padding: 10px 0;
+  }
+
+  .accordion-item .accordion-item-desc {
+    padding: 10px 0 20px;
   }
 }
