@@ -19,7 +19,7 @@ nav {
 ul#menu {
   display: flex;
   align-items: center;
-  gap: 24px;
+  gap: 32px;
 }
 ul#menu #head-start {
   background-color: blueviolet;
